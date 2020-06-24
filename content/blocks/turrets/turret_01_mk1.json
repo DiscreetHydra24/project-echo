@@ -4,7 +4,7 @@ description: op
 targetAir: true
 targetGround: true
 health: 5000
-size: 2
+size: 1
 innacuracy: 1
 reload: 1
 shootCone: 40
