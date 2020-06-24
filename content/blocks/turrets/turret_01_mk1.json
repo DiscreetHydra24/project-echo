@@ -1,1 +1,32 @@
-//Insert your code here
+type: itemTurret
+name: e
+description: op
+targetAir: true
+targetGround: true
+health: 5000
+size: 2
+innacuracy: 1
+reload: 1
+shootCone: 40
+rotatespeed: 100
+shots: 100
+range: 500
+burstspacing: 10
+ammo: {
+	copper: standardCopper
+
+	titanium: {
+		type:basicBulletType
+		damage: 10000
+	}
+}
+research: duo
+40 + round(requirements ^ 1.25) * 6 rounded down to the nearest 10
+requirements: [
+	{item: titanium, amount: 100}
+	{item: copper, amount:100}
+	{item: lead, amount: 100}
+	]
+category:turret
+shootSound
+	
