@@ -1,6 +1,8 @@
-name: e
-displayname:e [red]e[]
-author: Discreet_hydra24
-description: op
-version:"1.0"
-minGameVersion: "104.6
+{
+"name": "e",
+"displayname: "e [red]e[]",
+"author": "Discreet_hydra24",
+"description": "op",
+"version":"1.0",
+"minGameVersion": "104.6"
+  }
